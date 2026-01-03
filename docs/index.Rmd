@@ -1,3 +1,22 @@
+---
+title: St.Bedas's Alumni Association AGM Minutes
+date: "30th Dec 2025"
+subtitle: "Venue: Dolphin's Home" 
+output:
+  html_document:
+    fig_caption: yes
+    theme: cerulean
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F,
+                      message = F,
+                      warning = F)
+```
 
 
 **Members Present**
@@ -99,3 +118,46 @@ In addition, the following members were added:
 2) Dolphine Echessa - Welfare official
 
 Members suggested that the term limit for each leadership body shall be a period of two years. This will give chance to every member to be a leader and serve the association. The current leaders will continue serving the organization until the next AGM in 2026 where new leaders will be elected.
+
+## Min 3/2025: Financial Report
+
+The treasurer gave the financial report as follows:
+
+```{r}
+
+library(knitr)
+library(kableExtra)
+
+
+tbl <- data.frame(
+  Item = c("Registration fee","Seed Money","Total Savings",
+           "Interest accrued"),
+  Value = c("Ksh. 4,400","Ksh. 15,200","Ksh. 165,450","Ksh. 6,400")
+  )
+
+tbl |> 
+  kable(caption = "Treasurer's Report")
+
+
+```
+
+
+
+The registration fee and interest accrued on savings were used to cater for the AGM budget.
+
+Members whose seed money is less than Ksh. 1000 were asked to top up. Members agreed that seed money be retained by the treasurer for next years start up.
+
+Members were asked to register as members for the year 2026. The registration fee remains Ksh. 200. The deadline for registration was agreed on as 30th January 2026.
+
+## Min 4/2025: A.O.B
+
+A new member joined the association. Members were happy and eager to welcome Lawrence to the association. Members were tasked to think of an investment plan.
+
+## Min 5/2025: Adjournment
+
+There being no any other business the meeting was adjourned at 4pm after a word of prayer from George, who also prayed for the meals. After swallowship, members left at their own pleasure.
+
+
+
+
+
