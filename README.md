@@ -1,5 +1,9 @@
 # St.Bedas Annual General Meeting Minutes
 
+**Venue: Dolphin's Home**
+
+**Date: 30th Dec 2025**
+
 
 **Members Present**
 
